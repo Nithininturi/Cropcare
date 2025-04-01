@@ -45,9 +45,9 @@ function App() {
           </div>
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
-              { name: "Neeraj", role: "CFO" },
-              { name: "Nithin", role: "CTO" },
               { name: "Rahul", role: "CEO" },
+              { name: "Nithin", role: "CTO" },
+              { name: "Neeraj", role: "CFO" },
               { name: "Tarun", role: "CMO" }
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
